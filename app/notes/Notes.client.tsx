@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { fetchNotes } from "../../lib/api";
-import css from "./App.module.css";
+import css from "./Notes.module.css";
 import { useQuery } from "@tanstack/react-query";
 import { useDebouncedCallback } from "use-debounce";
 import NoteForm from "../../components/NoteForm/NoteForm";
