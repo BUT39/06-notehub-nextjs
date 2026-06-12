@@ -1,6 +1,5 @@
 "use client";
 
 export default function NoteLoading() {
-  return;
-  <p>Loading, please wait...</p>;
+  return <p>Loading, please wait...</p>;
 }
